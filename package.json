@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": 
   {
-    "start": "cd api && node index.js",
-    "dev": "cd api && nodemon index.js"
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
   },
   "author": "vinay shah",
   "license": "ISC",
